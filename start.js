@@ -20,7 +20,7 @@ app.post("/api1358318/books", async (req, res) => {
 app.get("/api1358318/books", async (req, res) => {
   console.info(`Getting all books`);
 
-  const books = await query("SELECT * FROM tblbook");
+  const books = await query("SELECT * FROM tblbookIUH1358318");
   res.json(books);
 });
 
